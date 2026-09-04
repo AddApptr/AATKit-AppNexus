@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta2"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta3"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -39,20 +39,20 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATAppNexusAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta2/AATAppNexusAdapter.zip",
-            checksum: "fcd0a75f7cc0d10465e28513998200fe9ddf294075a22c215cf6ce31fc6b8867"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/AATAppNexusAdapter.zip",
+            checksum: "3819962045a7427cc135a78da49bceeb74f2587c529035e7dad94c4365344a69"
         ),
-        // AppNexusSDK 9.12.1, from the vendor's SPM distribution.
+        // AppNexusSDK 9.14.0, from the vendor's SPM distribution.
         .binaryTarget(
             name: "AATOMSDK_Microsoft",
-            url: "https://adsdk.bing.net/mobile/ios/releases/9.12.1/dynamic/OMSDK_Microsoft.zip",
-            checksum: "0642ac4b61a3b8f78584b2d423bfd2116f603a96b4735baaf281236eda4fb473"
+            url: "https://adsdk.bing.net/mobile/ios/releases/9.14.0/dynamic/OMSDK_Microsoft.zip",
+            checksum: "2cfd8f91d582fea778de20af6b49dd86eb59009b3fd12278d92a4896de5e7645"
         ),
-        // AppNexusSDK 9.12.1, from the vendor's SPM distribution.
+        // AppNexusSDK 9.14.0, from the vendor's SPM distribution.
         .binaryTarget(
             name: "AATAppNexusSDK",
-            url: "https://adsdk.bing.net/mobile/ios/releases/9.12.1/dynamic/AppNexusSDKDynamic.zip",
-            checksum: "85326c85de117d4c4afe517255b988d7f6d36752e44ab490bc5a1a62f391f50d"
+            url: "https://adsdk.bing.net/mobile/ios/releases/9.14.0/dynamic/AppNexusSDKDynamic.zip",
+            checksum: "225f5e3e0f5bb0d2189c20543140ef2796b100cb052941a52378eafacc7afccc"
         ),
     ]
 )

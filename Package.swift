@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta3"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -39,8 +39,8 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATAppNexusAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/AATAppNexusAdapter.zip",
-            checksum: "3819962045a7427cc135a78da49bceeb74f2587c529035e7dad94c4365344a69"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATAppNexusAdapter.zip",
+            checksum: "86ca68ffdc218bc84c965d6b2f408341c8358c2f072b1d159e172febc608e725"
         ),
         // AppNexusSDK 9.14.0, from the vendor's SPM distribution.
         .binaryTarget(
